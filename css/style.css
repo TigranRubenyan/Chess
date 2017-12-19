@@ -1,0 +1,123 @@
+#board{
+    background: url("../images/background.jpg");
+    width:500px;
+    height: 500px;
+    border: 2px solid;
+    margin: 20px auto;
+    padding: 5px 25px 45px 30px;
+}
+
+.Square-black{
+    width: 60px;
+    height: 60px;
+    background-color: #7a4b25;
+    display: inline-block;
+    border: 1px solid #1e0c0b;
+}
+.Square-white{
+    width: 60px;
+    height: 60px;
+    background-color: #e3ba7a;
+    display: inline-block;
+    border: 1px solid #1e0c0b;
+}
+#start{
+    width: 250px;
+    height: 30px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    background-color: #d68942;
+    border: #ffd48e;
+}
+
+.black-soldier{
+     height: 60px;
+     width: 60px;
+     background: url("../img/bP.png");
+     border: #7A4B25;
+ }
+
+.black-boat{
+    height: 60px;
+    width: 60px;
+    background: url("../img/bR.png");
+    border: #7A4B25;
+}
+
+.black-horse{
+    height: 60px;
+    width: 60px;
+    background: url("../img/bN.png");
+    border: #7A4B25;
+}
+
+.black-elephant{
+    height: 60px;
+    width: 60px;
+    background: url("../img/bB.png");
+    border: #7A4B25;
+}
+
+.black-queen{
+    height: 60px;
+    width: 60px;
+    background: url("../img/bQ.png");
+    border: #7A4B25;
+}
+
+.black-king{
+    height: 60px;
+    width: 60px;
+    background: url("../img/bK.png");
+    border: #7A4B25;
+}
+
+.white-soldier{
+    height: 60px;
+    width: 60px;
+    background: url("../img/wP.png");
+    border: #ffd48e;
+}
+
+.white-boat{
+    height: 60px;
+    width: 60px;
+    background: url("../img/wR.png");
+    border: #ffd48e;
+}
+
+.white-horse{
+    height: 60px;
+    width: 60px;
+    background: url("../img/wN.png");
+    border: #ffd48e;
+}
+
+.white-elephant{
+    height: 60px;
+    width: 60px;
+    background: url("../img/wB.png");
+    border: #ffd48e;
+}
+
+.white-queen{
+    height: 60px;
+    width: 60px;
+    background: url("../img/wQ.png");
+    border: #ffd48e;
+}
+
+.white-king{
+    height: 60px;
+    width: 60px;
+    background: url("../img/wK.png");
+    border: #ffd48e;
+}
+
+.empty-space{
+    height: 60px;
+    width: 60px;
+    background-color: inherit;
+    border: #ffd48e;
+}
