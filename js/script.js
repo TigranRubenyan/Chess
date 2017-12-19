@@ -49,78 +49,78 @@ var asd;
 function figureStart() {
     //black figure
 
-    document.getElementById('0').innerHTML = '<button id="blackBoat" class="black-boat newClass"></button>';
-    document.getElementById('1').innerHTML = '<button id="blackHorse" class="black-horse newClass"></button>';
-    document.getElementById('2').innerHTML = '<button id="blackElephant" class="black-elephant newClass"></button>';
-    document.getElementById('3').innerHTML = '<button id="blackElephant" class="black-queen newClass"></button>';
-    document.getElementById('4').innerHTML = '<button id="blackKing" class="black-king newClass"></button>';
-    document.getElementById('5').innerHTML = '<button id="blackElephant2" class="black-elephant newClass"></button>';
-    document.getElementById('6').innerHTML = '<button id="blackHorse2" class="black-horse newClass"></button>';
-    document.getElementById('7').innerHTML = '<button id="blackBoat2" class="black-boat newClass"></button>';
+    document.getElementById('0').innerHTML = '<button id="a8" class="black-boat newClass"></button>';
+    document.getElementById('1').innerHTML = '<button id="b8" class="black-horse newClass"></button>';
+    document.getElementById('2').innerHTML = '<button id="c8" class="black-elephant newClass"></button>';
+    document.getElementById('3').innerHTML = '<button id="d8" class="black-queen newClass"></button>';
+    document.getElementById('4').innerHTML = '<button id="e8" class="black-king newClass"></button>';
+    document.getElementById('5').innerHTML = '<button id="f8" class="black-elephant newClass"></button>';
+    document.getElementById('6').innerHTML = '<button id="g8" class="black-horse newClass"></button>';
+    document.getElementById('7').innerHTML = '<button id="h8" class="black-boat newClass"></button>';
 
-    document.getElementById('8').innerHTML = '<button id="blackSoldier1" class="black-soldier newClass"></button>';
-    document.getElementById('9').innerHTML = '<button id="blackSoldier2"  class="black-soldier newClass"></button>';
-    document.getElementById('10').innerHTML = '<button id="blackSoldier3" class="black-soldier newClass"></button>';
-    document.getElementById('11').innerHTML = '<button id="blackSoldier4" class="black-soldier newClass"></button>';
-    document.getElementById('12').innerHTML = '<button id="blackSoldier5" class="black-soldier newClass"></button>';
-    document.getElementById('13').innerHTML = '<button id="blackSoldier6" class="black-soldier newClass"></button>';
-    document.getElementById('14').innerHTML = '<button id="blackSoldier7" class="black-soldier newClass"></button>';
-    document.getElementById('15').innerHTML = '<button  id="blackSoldier8" class="black-soldier newClass"></button>';
+    document.getElementById('8').innerHTML = '<button id="a7" class="black-soldier newClass"></button>';
+    document.getElementById('9').innerHTML = '<button id="b7"  class="black-soldier newClass"></button>';
+    document.getElementById('10').innerHTML = '<button id="c7" class="black-soldier newClass"></button>';
+    document.getElementById('11').innerHTML = '<button id="d7" class="black-soldier newClass"></button>';
+    document.getElementById('12').innerHTML = '<button id="e7" class="black-soldier newClass"></button>';
+    document.getElementById('13').innerHTML = '<button id="f7" class="black-soldier newClass"></button>';
+    document.getElementById('14').innerHTML = '<button id="g7" class="black-soldier newClass"></button>';
+    document.getElementById('15').innerHTML = '<button  id="h7" class="black-soldier newClass"></button>';
 
     //white figure
 
-    document.getElementById('48').innerHTML = '<button id="whiteSoldier1" class="white-soldier newClass"></button>';
-    document.getElementById('49').innerHTML = '<button id="whiteSoldier2" class="white-soldier newClass"></button>';
-    document.getElementById('50').innerHTML = '<button id="whiteSoldier3" class="white-soldier newClass"></button>';
-    document.getElementById('51').innerHTML = '<button id="whiteSoldier4" class="white-soldier newClass"></button>';
-    document.getElementById('52').innerHTML = '<button id="whiteSoldier5" class="white-soldier newClass"></button>';
-    document.getElementById('53').innerHTML = '<button id="whiteSoldier6" class="white-soldier newClass"></button>';
-    document.getElementById('54').innerHTML = '<button id="whiteSoldier7" class="white-soldier newClass"></button>';
-    document.getElementById('55').innerHTML = '<button id="whiteSoldier8" class="white-soldier newClass"></button>';
+    document.getElementById('48').innerHTML = '<button id="a2" class="white-soldier newClass"></button>';
+    document.getElementById('49').innerHTML = '<button id="b2" class="white-soldier newClass"></button>';
+    document.getElementById('50').innerHTML = '<button id="c2" class="white-soldier newClass"></button>';
+    document.getElementById('51').innerHTML = '<button id="d2" class="white-soldier newClass"></button>';
+    document.getElementById('52').innerHTML = '<button id="e2" class="white-soldier newClass"></button>';
+    document.getElementById('53').innerHTML = '<button id="f2" class="white-soldier newClass"></button>';
+    document.getElementById('54').innerHTML = '<button id="g2" class="white-soldier newClass"></button>';
+    document.getElementById('55').innerHTML = '<button id="h2" class="white-soldier newClass"></button>';
 
-    document.getElementById('56').innerHTML = '<button id="whiteBoat" class="white-boat newClass"></button>';
-    document.getElementById('57').innerHTML = '<button id="whiteHorse" class="white-horse newClass"></button>';
-    document.getElementById('58').innerHTML = '<button id="whiteElephant" class="white-elephant newClass"></button>';
-    document.getElementById('59').innerHTML = '<button id="whiteQueen" class="white-queen newClass"></button>';
-    document.getElementById('60').innerHTML = '<button id="whiteKing" class="white-king newClass"></button>';
-    document.getElementById('61').innerHTML = '<button id="whiteElephant2" class="white-elephant newClass"></button>';
-    document.getElementById('62').innerHTML = '<button id="whiteHorse2" class="white-horse newClass"></button>';
-    document.getElementById('63').innerHTML = '<button id="whiteBoat2" class="white-boat newClass"></button>';
+    document.getElementById('56').innerHTML = '<button id="a1" class="white-boat newClass"></button>';
+    document.getElementById('57').innerHTML = '<button id="b1" class="white-horse newClass"></button>';
+    document.getElementById('58').innerHTML = '<button id="c1" class="white-elephant newClass"></button>';
+    document.getElementById('59').innerHTML = '<button id="d1" class="white-queen newClass"></button>';
+    document.getElementById('60').innerHTML = '<button id="e1" class="white-king newClass"></button>';
+    document.getElementById('61').innerHTML = '<button id="f1" class="white-elephant newClass"></button>';
+    document.getElementById('62').innerHTML = '<button id="g1" class="white-horse newClass"></button>';
+    document.getElementById('63').innerHTML = '<button id="h1" class="white-boat newClass"></button>';
 
     //empty space
 
-    document.getElementById('16').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('17').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('18').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('19').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('20').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('21').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('22').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('23').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('24').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('25').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('26').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('27').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('28').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('29').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('30').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('31').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('32').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('33').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('34').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('35').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('36').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('37').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('38').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('39').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('40').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('41').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('42').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('43').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('44').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('45').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('46').innerHTML = '<button class="empty-space"></button>';
-    document.getElementById('47').innerHTML = '<button class="empty-space"></button>';
+    document.getElementById('16').innerHTML = '<button id="a6" class="empty-space"></button>';
+    document.getElementById('17').innerHTML = '<button id="b6" class="empty-space"></button>';
+    document.getElementById('18').innerHTML = '<button id="c6" class="empty-space"></button>';
+    document.getElementById('19').innerHTML = '<button id="d6" class="empty-space"></button>';
+    document.getElementById('20').innerHTML = '<button id="e6" class="empty-space"></button>';
+    document.getElementById('21').innerHTML = '<button id="f6" class="empty-space"></button>';
+    document.getElementById('22').innerHTML = '<button id="g6" class="empty-space"></button>';
+    document.getElementById('23').innerHTML = '<button id="h6" class="empty-space"></button>';
+    document.getElementById('24').innerHTML = '<button id="a5" class="empty-space"></button>';
+    document.getElementById('25').innerHTML = '<button id="b5" class="empty-space"></button>';
+    document.getElementById('26').innerHTML = '<button id="c5" class="empty-space"></button>';
+    document.getElementById('27').innerHTML = '<button id="d5" class="empty-space"></button>';
+    document.getElementById('28').innerHTML = '<button id="e5" class="empty-space"></button>';
+    document.getElementById('29').innerHTML = '<button id="f5" class="empty-space"></button>';
+    document.getElementById('30').innerHTML = '<button id="g5" class="empty-space"></button>';
+    document.getElementById('31').innerHTML = '<button id="h5" class="empty-space"></button>';
+    document.getElementById('32').innerHTML = '<button id="a4" class="empty-space"></button>';
+    document.getElementById('33').innerHTML = '<button id="b4" class="empty-space"></button>';
+    document.getElementById('34').innerHTML = '<button id="c4" class="empty-space"></button>';
+    document.getElementById('35').innerHTML = '<button id="d4" class="empty-space"></button>';
+    document.getElementById('36').innerHTML = '<button id="e4" class="empty-space"></button>';
+    document.getElementById('37').innerHTML = '<button id="f4" class="empty-space"></button>';
+    document.getElementById('38').innerHTML = '<button id="g4" class="empty-space"></button>';
+    document.getElementById('39').innerHTML = '<button id="h4" class="empty-space"></button>';
+    document.getElementById('40').innerHTML = '<button id="a3" class="empty-space"></button>';
+    document.getElementById('41').innerHTML = '<button id="b3" class="empty-space"></button>';
+    document.getElementById('42').innerHTML = '<button id="c3" class="empty-space"></button>';
+    document.getElementById('43').innerHTML = '<button id="d3" class="empty-space"></button>';
+    document.getElementById('44').innerHTML = '<button id="e3" class="empty-space"></button>';
+    document.getElementById('45').innerHTML = '<button id="f3" class="empty-space"></button>';
+    document.getElementById('46').innerHTML = '<button id="g3" class="empty-space"></button>';
+    document.getElementById('47').innerHTML = '<button id="h3" class="empty-space"></button>';
 
     $( document ).ready(function() {
         $(document).on("click", ".empty-space", function (event) {
